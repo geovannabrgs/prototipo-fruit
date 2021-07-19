@@ -9,12 +9,14 @@
     padding: 15px;
 }
 
-.lado-esquerdo img {
+.lado-esquerdo .background {
     position: fixed;
     width: 50%;
     height: 100%;
     left: 0;
     top: 0;
+    background-image: url(./img/frutas.jpg);
+    background-size: cover;
 }
 
 .lado-direito {
