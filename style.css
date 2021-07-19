@@ -1,5 +1,24 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.lado-esquerdo {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    padding: 15px;
+}
+
+.lado-esquerdo img {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
 .lado-direito {
-    width: 100%;
+    width: 50%;
 }
 
 .topo {
@@ -10,11 +29,89 @@
     color: #10451D;
     font-size: 26px;
     font-weight: 800;
-    font-family: 'Roboto', sans-serif;
     letter-spacing: -1px;
 }
 
 .serving-for-two {
     font-size: 12px;
     font-weight: bold;
+    border: solid 1px #6D3B05;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #E6E0CD;
+    color: #6D3B05;
+}
+
+.stars svg {
+    fill: #C23103;
+}
+
+.indicador {
+    font-size: 12px;
+}
+
+.select-ingredients {
+    margin-top: 75px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.total-items {
+    margin-top: 75px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #A47148;
+    margin-right: 10px;
+}
+
+.items {
+    margin-top: 45px;
+    border: 1px solid #00000025;
+    border-radius: 40px;
+}
+
+.items-fruits img {
+    width: 65px;
+    height: 65px;
+    border: 1px solid #00000025;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.inf-fruit {
+    margin-left: 30px;
+    line-height: 13.8px;
+}
+
+.inf {
+    font-size: 9px;
+    opacity: 60%;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.inf-2 {
+    font-size: 9px;
+    opacity: 60%;
+    font-weight: bold;
+}
+
+.name-fruit {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.button {
+    background-color: #003554;
+    color: #FFFFFF;
+    margin-top: 30px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 35px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+    border: none;
 }
