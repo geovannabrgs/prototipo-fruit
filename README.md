@@ -14,7 +14,9 @@
 
   ```git clone https://github.com/geovannabrgs/prototipo-fruit.git```
 
+## Deploy:
 
+```https://geovannabrgs.github.io/prototipo-fruit/```
 
 
 
