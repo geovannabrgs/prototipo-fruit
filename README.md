@@ -16,7 +16,7 @@
 
 ## Deploy:
 
-```https://geovannabrgs.github.io/prototipo-fruit/```
+https://geovannabrgs.github.io/prototipo-fruit/
 
 
 
